@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "christiansany",
+      "authorEmail": "christian.sany@bluewin.ch",
+      "authorUrl": "https://www.christiansany.ch"
+    }
+  }
+}
