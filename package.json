@@ -42,7 +42,7 @@
   },
   "scripts": {
     "lint": "lint-staged",
-    "prepublish": "nsp check",
+    "prepare": "nsp check",
     "pretest": "eslint .",
     "precommit": "npm run lint",
     "preversion": "npm run lint",
