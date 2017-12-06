@@ -41,9 +41,12 @@
     "testEnvironment": "node"
   },
   "scripts": {
+    "lint": "lint-staged",
     "prepublish": "nsp check",
     "pretest": "eslint .",
-    "precommit": "lint-staged",
+    "precommit": "npm run lint",
+    "preversion": "npm run lint",
+    "postversion": "git push && git push --tags",
     "test": "jest"
   },
   "lint-staged": {
