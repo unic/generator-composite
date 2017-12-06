@@ -1,5 +1,4 @@
 # generator-composite [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Composite scaffolder
 
 ## Installation
 
@@ -25,7 +24,7 @@ yo composite
 
 ## License
 
-Apache-2.0 © [christiansany](https://www.christiansany.ch)
+Apache-2.0 © [Christian Sany](https://www.christiansany.ch)
 
 
 [npm-image]: https://badge.fury.io/js/generator-composite.svg
