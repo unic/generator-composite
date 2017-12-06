@@ -8,15 +8,9 @@
     "email": "christian.sany@bluewin.ch",
     "url": "https://www.christiansany.ch"
   },
-  "files": [
-    "generators"
-  ],
+  "files": ["generators"],
   "main": "generators/index.js",
-  "keywords": [
-    "composite",
-    "composition",
-    "yeoman-generator"
-  ],
+  "keywords": ["composite", "composition", "yeoman-generator"],
   "devDependencies": {
     "eslint": "^4.1.0",
     "eslint-config-airbnb-base": "12.1.0",
@@ -47,20 +41,11 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.js": ["eslint --fix", "git add"],
+    "*.json": ["prettier --write", "git add"]
   },
   "eslintConfig": {
-    "extends": [
-      "airbnb-base",
-      "prettier"
-    ],
+    "extends": ["airbnb-base", "prettier"],
     "env": {
       "jest": true,
       "node": true
@@ -74,9 +59,7 @@
         }
       ]
     },
-    "plugins": [
-      "prettier"
-    ]
+    "plugins": ["prettier"]
   },
   "repository": "unic/generator-composite",
   "license": "Apache-2.0"

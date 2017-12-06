@@ -26,7 +26,7 @@ Helpful Ressources:
 * https://www.youtube.com/watch?v=ImwrezYhw4w
 * https://www.youtube.com/watch?v=wfMtDGfHWpA
 
-**Important**: In further examples and the API will just infer that you've already generated your new object with the composite applied on it and will not give any more examples on how to do that.
+**Important**: In further examples and the API we'll just infer that you've already generated your new object with the composite applied to it and will not give any more examples on how to do that.
 
 **Examples**
 ```js

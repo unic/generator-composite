@@ -6,7 +6,7 @@ First, install [Yeoman](http://yeoman.io) and generator-composite using [npm](ht
 
 ```bash
 npm install -g yo
-npm install -g generator-composite
+npm install -g generator-composite # If you have this generator already isntalled, make sure you have the newest version befor running yo composite
 ```
 
 Then generate your new project:
