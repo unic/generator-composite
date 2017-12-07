@@ -1,6 +1,6 @@
 import test from 'ava';
-import <%= shortPackagename %> from './index';
+import <%= shortPackagenameCamel %> from './index';
 
-test('<%= shortPackagename %> is executed without failing', t => {
-  t.notThrows(<%= shortPackagename %>);
+test('<%= shortPackagenameCamel %> is executed without failing', t => {
+  t.notThrows(<%= shortPackagenameCamel %>);
 });

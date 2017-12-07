@@ -7,6 +7,6 @@
 
 export default () => ({
   method() {
-    console.log('This is an example mehtod');
+    console.log('This is an example method');
   },
 });

@@ -13,17 +13,18 @@
     "postversion": "git push && git push --tags",
     "test": "ava"
   },
-  "main": "dist/index.js",
+  "main": "dist/<%= shortPackagename %>.js",
   "module": "./src/index.js",
   "repository": {
     "type": "git",
     "url": "git+<%= repoUrl %>.git"
   },
   "keywords": [
-    "composite"
+    "composite",
+    "<%= shortPackagename %>"
   ],
   "author": "<%= author %>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "<%= repoUrl %>/issues"
   },

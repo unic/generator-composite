@@ -12,10 +12,10 @@ $ npm install @unic/<%= packagename %>
 
 ```javascript
 // ES6 Module
-import <%= shortPackagename %> from '@unic/<%= packagename %>';
+import <%= shortPackagenameCamel %> from '@unic/<%= packagename %>';
 
 // CommomJS
-const <%= shortPackagename %> = require('@unic/<%= packagename %>');
+const <%= shortPackagenameCamel %> = require('@unic/<%= packagename %>').default;
 ```
 
 ## Usage
@@ -31,17 +31,19 @@ Helpful Ressources:
 **Examples**
 ```js
 // Applying the composite to a new object literal
-const obj = Object.assign({}, <%= shortPackagename %>());
+const obj = Object.assign({}, <%= shortPackagenameCamel %>());
 
 // Equivalent with lodash.merge
-const obj = _.merge({}, <%= shortPackagename %>());
+const obj = _.merge({}, <%= shortPackagenameCamel %>());
 
 // Just use it as a
-const obj = <%= shortPackagename %>();
+const obj = <%= shortPackagenameCamel %>();
 ```
 
 ## API
 
 TODO: Provide information for this package
 
-MIT © <%= copyright %>
+## License
+
+Apache-2.0
