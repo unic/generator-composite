@@ -63,7 +63,5 @@ module.exports = class extends Generator {
 
   install() {
     this.npmInstall();
-
-    // Setup git and add remote
   }
 };
